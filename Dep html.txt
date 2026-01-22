@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Deployment App - Sakshi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .demo-image {
+            width: 300px;
+            margin: 20px 0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome Sakshi!</h1>
+        <p>This is Sakshi's demo app for AWS deployment strategies.</p>
+        <!-- Replace <YOUR_S3_BUCKET> with your actual S3 bucket name -->
+        <img src="https://<YOUR_S3_BUCKET>.s3.amazonaws.com/image.jpg" alt="Sample Image" class="demo-image">
+        <button onclick="alert('Hello Sakshi! This button works!')">Click Me</button>
+    </div>
+</body>
+</html>
