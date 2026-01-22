@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Simple Deployment App - Sakshi</title>
+    <title>Simple Deployment App -</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -29,7 +29,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome Sakshi!</h1>
+        <h1>Welcome!</h1>
         <p>This is Sakshi's demo app for AWS deployment strategies.</p>
         <!-- Replace <YOUR_S3_BUCKET> with your actual S3 bucket name -->
         <img src="https://<YOUR_S3_BUCKET>.s3.amazonaws.com/image.jpg" alt="Sample Image" class="demo-image">
@@ -37,3 +37,4 @@
     </div>
 </body>
 </html>
+
